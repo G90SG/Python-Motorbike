@@ -3,10 +3,12 @@
 print ("Motorbike Value")
 value = 2000
 print ("£",value)
-while value>1001:
-  value=value*0.9
+while value>1000:
   limited_float=round(value,2)
   print("£",limited_float)
+  value=value*0.9
+  
+  
 else:
   print ("Value is less than £1000")
 
